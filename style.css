@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+}
+
+.notes-list {
+    flex-flow: row wrap;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.note {
+    margin: 10px;
+    padding: 20px 5px;
+    background-color:rgb(179, 137, 247);
+    width: 20%;
+}
+
+.delete-button {
+    background-color: transparent;
+    border-style: none;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.message-text {
+    float: left;
+}

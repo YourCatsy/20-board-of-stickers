@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" defer></script>
+    <script src="./script.js" type="module" defer></script>
+</head>
+
+<body>
+    <button class="add-button">Add line</button>
+    <div class='notes-list' id="list"></div>
+    
+    <script id="newTaskTemplate" type="text/template">
+        <div data-note-index="{{id}}" class='note'>
+            <button class="delete-button">&#10006;</button>
+            <textarea name="description"  class="message-text"> {{description}}</textarea>
+        </div>
+    </script>
+
+</body>
+
+</html>
